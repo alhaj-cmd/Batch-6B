@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+.container{
+  
+    margin-top: 20px;
+    padding: 0 50px;
+    width: auto;
+    height: 80%;
+    display: flex;
+    margin-right: 20px;
+    overflow: hidden;
+   
+}
+.text-area{
+    color: gainsboro;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+.text-area h1{
+    color: aliceblue;
+    text-decoration-line: inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.text-area button{
+    color: aliceblue;
+    background-color: red;
+    text-decoration: none;
+   
+   
+}
+.images img{
+    margin-top: 20px;
+    height: 93%;
+    width: 250px;
+   
+}
