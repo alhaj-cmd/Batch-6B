@@ -37,6 +37,11 @@ body{
    
    
 }
+.text-area button:hover{
+    border-radius: 10px;
+    background-color: bisque;
+    transition: 2s;
+}
 .images img{
     margin-top: 20px;
     height: 93%;
@@ -72,10 +77,10 @@ body{
 #links-part{
     background-color: red;
 }
+/* player theam */
 .player-img{
     background-color: antiquewhite;
     padding: 0;
-    width: 130px;
     margin-bottom: 10px;
     margin-left: 5px;
     border-radius: 10px;
@@ -89,12 +94,95 @@ body{
 }
 .side{
     margin: 10px;
+    justify-content: space-between;
 }
 
-.icon-f{
-    display:inline-flex;
+.icon-f {
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+   
+    
+
+
 }
+/* main palyer */
 .player{
-    display:flex;
-    overflow: inherit;
+
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    
+}
+/* footer */
+.footer-area{
+    background-color: black;
+    height: 190px;
+    padding: 0;
+
+}
+.articles {
+    
+    color: aliceblue;
+    margin: 0 20px;
+    text-align: center;
+    padding-top: 20px;
+
+    
+}
+hr{
+    width: 100%;
+   
+    border-bottom: 1px solid gray;
+    
+    
+}
+.text-end{
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    justify-content: space-between;
+    width: 80%;
+    text-decoration: none;
+
+}
+.text-end p{
+    color: gainsboro;
+}
+
+/* flag site */
+.players-img{
+    padding: 10px;
+    background-color: ghostwhite;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.artical-f{
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.middle{
+    padding-top: 40px;
+}
+.flag{
+    display: flex;
+}
+
+.flag img{
+    height: 80px;
+    width: 60px;
+    padding: 5px 10px;
+    
+}
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .head{
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+  
+    
 }
